@@ -32,6 +32,7 @@ Sub stockAnalysis()
     
     ' Find the total number of rows in the sheet
     LastRow = ActiveSheet.Cells.Find("*", SearchOrder:=xlByRows, SearchDirection:=xlPrevious).Row
+    ' Alternate way to get the total number of rows in the sheet - LastRow = Cells(Rows.Count, 1).End(xlUp).Row
     
     ' Setup the results table headers
     Cells(1, 9).Value = "Ticker"
