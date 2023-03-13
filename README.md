@@ -1,7 +1,7 @@
 # VBA-challenge
 Repo for the VBA project, module 2 challenge of the UCB Data Analytics Bootcamp.
 The VBA script in the yearlyStockAnalysis.bas file loops through all the stocks for every worksheet, each worksheet has one year of data. 
-Run the yearlyStockAnalysis() subroutine, this will loop through every worksheet and it call the stockAnalysis() sub-routine which loops through all the stocks in a worksheet.
+Run the yearlyStockAnalysis() subroutine, this will loop through every worksheet and it calls the stockAnalysis() sub-routine which loops through all the stocks in a worksheet.
 
 The script outputs the following information per worksheet:
 
